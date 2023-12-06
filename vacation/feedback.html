@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="greecevacation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="greecefavicon.ico">
+  <meta name="description" content="Plan your dream vacation to Greece">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Greece Vacation: Home</title>
+</head>
+<body>
+  <!-- Start the Page Header -->
+  <header>
+    <img src="images/greecelogo.png" alt="site logo" width="100" height="100">
+    <div>
+      <h1>Greece Vacation</h1>
+      <h2>Your Dream Getaway</h2>
+    </div>
+  </header>
+
+  <!-- Start page Navigation -->
+  <nav>
+    <ul>
+       <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="activities.html">Activities</a></li>
+         <li> <a href="gallery.html">Gallery</a></li>
+      <li class="active"> <a href="feedback.html">Feedback</a></li>
+        <li> <a href="contact.html">Contact Us</a></li>
+
+    </ul>
+  </nav>
+  
+<!--Start page main-->
+<main>
+    <h1>Feedback - Greece Travel Survey</h1>
+
+    <form method="get" class="myForm" action="thanks.html">
+
+        <fieldset>
+            <legend>Traveler Information</legend>
+            <label>First Name * <input type="text" name="fname" required></label>
+            <label>Last Name * <input type="text" name="lname" required></label>
+            <label>Cell Number * <input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            <label>Email * <input type="email" name="email" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What aspects of your Greek vacation were most helpful?</legend>
+            <label><input type="radio" name="most_helpful" value="Sights">Tourist Attractions and Sights</label>
+            <label><input type="radio" name="most_helpful" value="Cuisine">Greek Cuisine</label>
+            <label><input type="radio" name="most_helpful" value="Culture">Cultural Experiences</label>
+            <label><input type="radio" name="most_helpful" value="Activities">Outdoor Activities</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferred Styles of Exploration</legend>
+            <label><input type="checkbox" name="Beaches" value="chosen">Beach Exploration</label>
+            <label><input type="checkbox" name="Historical_Sites" value="chosen">Historical Sites</label>
+            <label><input type="checkbox" name="Nature" value="chosen">Nature Walks</label>
+            <label><input type="checkbox" name="Nightlife" value="chosen">Nightlife and Entertainment</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Where did you draw inspiration for your Greek adventure?
+                <select name="inspiration_source">
+                    <option value="none">Please Select</option>
+                    <option value="Travel_Blogs">Travel Blogs</option>
+                    <option value="Social_Media">Social Media</option>
+                    <option value="Recommendations">Friend's Recommendations</option>
+                    <option value="Travel_Books">Travel Books</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label>Any additional comments or suggestions about your Greece travel experience:
+                <textarea name="additional_comments"></textarea>
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+</main>
+
+<!-- Start of page footer -->
+<footer>
+    <p>&copy; 2023 &bull; Noelle Orr &bull; <a href="mailto:noelleorr1@gmail.com">Email Us</a></p>
+</footer>
+</body>
+</html>
+``
